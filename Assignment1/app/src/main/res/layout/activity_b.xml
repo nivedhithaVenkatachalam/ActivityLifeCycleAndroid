@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img9"
+    android:padding="8dip"
+    >
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_b_label"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_large"
+        android:textColor="@color/pink"
+        android:paddingBottom="16dip"
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_b_content"
+        android:textSize="@dimen/font_medium"
+        android:textColor="@color/light_green"
+        android:paddingBottom="16dip"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_finish_a"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/btn_finish_b_label"
+            android:layout_centerInParent="true"
+            android:onClick="finishActivityB"
+            android:textColor="@color/green"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
